@@ -1,0 +1,12 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="animelogo" clip-path="url(#clip0_3_2)">
+<circle id="Ellipse 1" cx="10" cy="10" r="5.5" stroke="#FAFF00"/>
+<rect id="Rectangle 1" x="0.5" y="0.5" width="19" height="19" stroke="#FAFF00"/>
+<path id="Ellipse 2" d="M13.5 19.5C13.5 27.2487 7.43945 33.5 0 33.5C-7.43945 33.5 -13.5 27.2487 -13.5 19.5C-13.5 11.7513 -7.43945 5.5 0 5.5C7.43945 5.5 13.5 11.7513 13.5 19.5Z" stroke="#FAFF00"/>
+</g>
+<defs>
+<clipPath id="clip0_3_2">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>
