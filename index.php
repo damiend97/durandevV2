@@ -615,16 +615,16 @@
                 </div>
             </div>
             <div class="rect" id="r6">
-                <div class="work-title">Mr. G's Automotive</div>
-                <div class="work-description">Mr. G's Automotive is a site template for an automotive business. It is simple in the fact that it only uses HTML <i class="fab fa-html5"></i> CSS <i class="fab fa-css3-alt"></i> and JavaScript <i class="fab fa-js"></i>.</div>
+                <div class="work-title">Housewife Helper</div>
+                <div class="work-description">Housewife Helper is a housesitting company that I worked for to design a company page. The website is fully responsive and even uses a bit of PHP <i class="fab fa-php"></i> but I primarily relied on HTML <i class="fab fa-html5"></i> and CSS <i class="fab fa-css3-alt"></i>.</div>
                 <div class="work-links">
                     <div class="nested-links">
                         <div class="view-link">
-                            <a target="_blank" href="https://durandev.net/Mr.G's%20Automotive/">View Project</a>
+                            <a target="_blank" href="https://housewifehelper.com/">View Project</a>
                             <i class="fas fa-eye"></i>
                         </div>
                         <div class="code-link">
-                            <a target="_blank" href="https://github.com/damiend97/Mr.-G-s-Automotive">View Code</a>
+                            <a target="_blank" href="https://github.com/damiend97/housewifehelper">View Code</a>
                             <i class="fas fa-code"></i>
                         </div>
                     </div>
