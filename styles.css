@@ -572,7 +572,7 @@ nav {
     margin-right: 25px;
     cursor: none;
 }
-.fa-solid {
+/* .fa-solid {
     background: red;
     border: 1px solid red;
     min-width: 50px !important;
@@ -587,7 +587,7 @@ nav {
 .fa-regular {
     border: 1px solid red;
     width: 100px;
-}
+} */
 #animeSVG {
     /* border: 1px solid red; */
 }
