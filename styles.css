@@ -13,22 +13,8 @@ html {
 }
 body {
     background: linear-gradient(to right, rgb(28, 28, 28), rgb(44, 44, 44), rgb(28, 28, 28));
-    cursor: none !important;
     overflow: hidden !important;
     font-family: 'Gruppo', sans-serif;
-}
-
-.cursor {
-    position: absolute;
-    top: 300px;
-    left: 300px;
-    height: 10px;
-    width: 10px;
-    background: #fff;
-    border-radius: 50%;
-    z-index: 10000;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
 }
 
 /* HOME PAGE #################################################################################################### */
@@ -114,7 +100,7 @@ body {
     text-transform: uppercase;
     width: 150px;
     transition: all .5s ease;
-    cursor: none;
+    cursor: pointer;
 
 }
 .buttons button:hover {
@@ -209,23 +195,40 @@ nav {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    overflow-y: hidden;
+
 }
 .hello {
     color: #EBFF00;
     margin-bottom: 10vh;
     font-size: 2em;
+    position: relative;
+    font-weight: 200;
+    opacity: 0;
 }
+.hello .hello-inner {
+    position: relative;
+    display: inline-block;
+}
+.hello .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+}
+
 .bio-text {
     color: #FFFFFF;
     margin-bottom: 10vh;
+    opacity: 0;
 }
 .scroll-text {
     color: #FFFFFF;
+    opacity: 0;
 }
 
 .dcontain {
     text-align: center;
     width: 100%;
+    opacity: 0;
 }
 #da1, #da2, #da3 {
     transition: all 1s ease;
@@ -243,6 +246,7 @@ nav {
     padding: 0 10%;
     text-align: center;
     font-family: 'Gruppo', sans-serif !important;
+    background: #191919;
 }
 .skills .title {
     color: white;
@@ -576,20 +580,20 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    cursor: none;
+    cursor: pointer;
     width: 100%;
 }
 .view-link a {
     color: white;
     text-decoration: none;
     margin-right: 25px;
-    cursor: none;
+    cursor: pointer;
 }
 .code-link a {
     color: white;
     text-decoration: none;
     margin-right: 25px;
-    cursor: none;
+    cursor: pointer;
 }
 /* .fa-solid {
     background: red;
@@ -661,7 +665,7 @@ nav {
 }
 .social a {
     color: white !important;
-    cursor: none;
+    cursor: pointer;
 }
 .contactInfo {
     font-size: .8em;
