@@ -113,7 +113,7 @@ $(document).ready(() => {
 
     $('.menu-item').click((e) => {
         document.body.scrollTop = document.documentElement.scrollTop = 0;
-        toolTitleSize = 0;
+        skillTitleSize = 0;
         processTitleSize = 0;
 
         let id = e.target.getAttribute('id');

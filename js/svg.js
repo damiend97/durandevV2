@@ -16,67 +16,6 @@ $.fn.isInViewport = function(dist) {
 $(document).ready(() => {
     // SCROLL EVENT *********************************
     $(window).scroll((e) => {
-        // HTML ANIMATION
-        if($('#ELIP_2').isInViewport(200)) {
-            document.getElementById("ELIP_2").style.animation = "fadeIn 2s forwards";
-            document.getElementById("HIGHLIGHT4").style.animation = "outline 5s forwards";
-        }
-
-        // API ANIMATION
-        if($('#HIGHLIGHT2').isInViewport(200)) {
-            document.getElementById("HIGHLIGHT2").style.animation = "outline 5s forwards";
-            document.getElementById("RECT").style.animation = "fadeIn 2s forwards";
-            document.getElementById("TXT_2").style.animation = "fadeIn 2s forwards";
-        }
-
-        // GIT ANIMATION
-        if($('#HIGHLIGHT3').isInViewport(200)) {
-            document.getElementById("HIGHLIGHT3").style.animation = "outline 5s forwards";
-            document.getElementById("RECT_2").style.animation = "fadeIn 2s forwards";
-            document.getElementById("TXT_3").style.animation = "fadeIn 2s forwards";
-        }
-
-        // JQUERY ANIMATION
-        if($('#HIGHLIGHT5').isInViewport(200)) {
-            document.getElementById("HIGHLIGHT5").style.animation = "outline 5s forwards";
-            document.getElementById("ELIP_3").style.animation = "fadeIn 2s forwards";
-            document.getElementById("TXT_5").style.animation = "fadeIn 2s forwards";
-        }
-
-        // JAVASCRIPT ANIMATION
-        if($('#HIGHLIGHT1').isInViewport(200)) {
-            document.getElementById("HIGHLIGHT1").style.animation = "outline 5s forwards";
-            document.getElementById("ELIP").style.animation = "outline 5s forwards";
-            document.getElementById("TXT").style.animation = "fadeIn 2s forwards";
-        }
-        
-        // CSS ANIMATION
-        if($('#HIGHLIGHT6').isInViewport(200)) {
-            document.getElementById("HIGHLIGHT6").style.animation = "outline 5s forwards";
-            document.getElementById("RECT_3").style.animation = "fadeIn 2s forwards";
-            document.getElementById("TXT_6").style.animation = "fadeIn 2s forwards";
-        }
-
-        // SUBTEXT ANIMATIONS
-        if($('#SUBT1').isInViewport(200)) {
-            document.getElementById("SUBT1").style.animation = "fadeIn 2s forwards";
-        }
-        if($('#SUBT2').isInViewport(200)) {
-            document.getElementById("SUBT2").style.animation = "fadeIn 2s forwards";
-        }
-        if($('#SUBT3').isInViewport(200)) {
-            document.getElementById("SUBT3").style.animation = "fadeIn 2s forwards";
-        }
-        if($('#SUBT4').isInViewport(200)) {
-            document.getElementById("SUBT4").style.animation = "fadeIn 2s forwards";
-        }
-        if($('#SUBT5').isInViewport(200)) {
-            document.getElementById("SUBT5").style.animation = "fadeIn 2s forwards";
-        }
-        if($('#SUBT6').isInViewport(200)) {
-            document.getElementById("SUBT6").style.animation = "fadeIn 2s forwards";
-        }
-
         // PROCESS ANIMATIONS
         if($('#sbox1').isInViewport(200)) {
             document.getElementById("GT1").style.animation = "fadeIn 1s forwards";

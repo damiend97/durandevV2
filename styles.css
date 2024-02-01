@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Comforter&family=Kumar+One+Outline&family=Major+Mono+Display&family=Megrim&family=Play&family=Poiret+One&family=Stick+No+Bills:wght@200&family=Syncopate&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -13,6 +15,7 @@ body {
     background: linear-gradient(to right, rgb(28, 28, 28), rgb(44, 44, 44), rgb(28, 28, 28));
     cursor: none !important;
     overflow: hidden !important;
+    font-family: 'Gruppo', sans-serif;
 }
 
 .cursor {
@@ -37,7 +40,7 @@ body {
 }
 .homeContent {
     text-align: center;
-    font-family: 'Stick No Bills', sans-serif;
+    font-family: 'Gruppo', sans-serif;
     font-size: 2em;
     width: 100%;
 }
@@ -78,7 +81,7 @@ body {
     stroke-width: .5;
 }
 .title {
-    font-family: 'Megrim', cursive;
+    font-family: 'Gruppo', sans-serif;
     color: #000;
     display: none;
 }
@@ -107,7 +110,7 @@ body {
     padding: 15px;
     font-size: .7em;
     color: #EBFF00;
-    font-family: 'Play', sans-serif;
+    font-family: 'Gruppo', sans-serif;
     text-transform: uppercase;
     width: 150px;
     transition: all .5s ease;
@@ -136,7 +139,7 @@ nav {
     font-size: 2.25em;
     color: white;
     z-index: 1500;
-    font-family: 'Megrim', cursive;
+    font-family: 'Gruppo', sans-serif;
     opacity: 0;
     transition: all 1s ease;
     width: max-content;
@@ -175,7 +178,7 @@ nav {
 }
 .menu-items {
     color: white;
-    font-family: 'Megrim', cursive;
+    font-family: 'Gruppo', sans-serif;
     font-size: 3em;
     position: relative;
 }
@@ -194,52 +197,32 @@ nav {
     display: none;
 }
 
-/* BIO SLIDES ############################################# */
-.bio-slides {
-    width: 100vw;
-}
-.slide {
+/* BIO  ################################################### */
+.bio {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
+}
+.bio-inner {
     text-align: center;
-    color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.slide:nth-child(1) {
-    background: #111;
-    width: 100vw;
-}
-.slide:nth-child(2) {
-    background: #111;
-    width: 100vw;
-}
-.slide:nth-child(3) {
-    background: #111;
-    width: 100vw;
-}
-#s-c1, #s-c2, #s-c3 {
-    transition: all .25s ease;
-}
-#s-c2 {
-    transform: translateX(100vw);
-}
-#s-c3 {
-    transform: translateX(100vw);
-}
-.starter {
-    color: white;
-    font-size: 1em;
-    text-transform: uppercase;
-    font-family: 'Megrim', cursive;
-}
-.yellow {
+.hello {
     color: #EBFF00;
-    font-size: 1.5em;
-    /* font-family: 'Stick No Bills', sans-serif; */
-    font-family: 'Megrim', cursive;
+    margin-bottom: 10vh;
+    font-size: 2em;
 }
+.bio-text {
+    color: #FFFFFF;
+    margin-bottom: 10vh;
+}
+.scroll-text {
+    color: #FFFFFF;
+}
+
 .dcontain {
     text-align: center;
     width: 100%;
@@ -254,28 +237,71 @@ nav {
     animation-delay: -666ms !important;
 }
 
-/* TOOLS ################################################## */
-.tools {
-    font-family: 'Megrim', cursive;
+/* SKILLS ################################################## */
+
+.skills {
     padding: 0 10%;
     text-align: center;
+    font-family: 'Gruppo', sans-serif !important;
 }
-.tools .title {
-    height: 100vh;
+.skills .title {
+    color: white;
+    background: #222;
+    text-align: left;
+    padding: 25px;
+    font-size: 1.5em;
 }
-.tools .title-inner {
-    position: sticky;
-    top: 0;
-    height: 100vh;
+.skills .title-inner {
+}
+.skills .title-text {
+}
+.yellow {
+    color: #EBFF00;
+}
+.skill-section {
+    margin-top: 100px;
+}
+.skill-title {
+    margin-bottom: 25px;
+    border-bottom: 3px solid #EBFF00;
+    text-align: left;
+    font-size: 1.25em;
+    padding-bottom: 25px;
+}
+.skill-row {
+    display: flex;
+}
+.skill-box {
+    height: 150px;
+    width: 150px;
+    margin-right: 25px;
+    background: #222;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
 }
-.tools .title-text {
-    margin-bottom: 50px;
-    text-align: left;
-    font-size: 0em;
+.skill-svg {
+    height: 25px;
+    width: 25px;
+    background: #EBFF00;
+}
+.skill-text {
+    font-family: .5em;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #222;
+    transition: all .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-box:hover .skill-text {
+    opacity: 1;
 }
 #customsvg {
     margin-top: 50px;
@@ -293,34 +319,27 @@ nav {
 
 /* PROCESS ################################################## */
 .process {
-    margin-top: 100px;
-    padding: 0 10%;
+    padding: 250px 10% 0px 10%;
 }
 .process .title {
-    height: 100vh;
+    color: white;
+    background: #222;
+    text-align: left;
+    padding: 25px;
+    font-size: 1.5em;
 }
 .process .title-inner {
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
 }
 .process .title-text {
-    margin-bottom: 50px;
-    text-align: left;
-    font-size: 0em;
 }
 .info {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Gruppo', sans-serif;
     font-size: .6em !important;
 }
 /* DESIGN ######################### */
 .design {
     margin-top: 100px;
-    font-family: 'Megrim', cursive;
+    font-family: 'Gruppo', sans-serif;
     text-align: center;
     min-height: 300px;
 }
@@ -374,7 +393,7 @@ nav {
 /* DEVELOP ######################### */
 .develop {
     margin-top: 100px;
-    font-family: 'Megrim', cursive;
+    font-family: 'Gruppo', sans-serif;
     text-align: center;
     min-height: 300px;
 }
@@ -419,7 +438,7 @@ nav {
 /* DEPLOY ######################### */
 .deploy {
     margin-top: 100px;
-    font-family: 'Megrim', cursive;
+    font-family: 'Gruppo', sans-serif;
     text-align: center;
     min-height: 300px;
 }
@@ -503,7 +522,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    font-family: 'Megrim', cursive;
+    font-family: 'Gruppo', sans-serif;
     height: 90vh;
     box-sizing: border-box;
     position: relative;
@@ -528,7 +547,7 @@ nav {
 }
 .work-description {
     height: auto;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Gruppo', sans-serif;
     width: 80%;
     /* padding: 25px; */
     height: 75%;
@@ -606,7 +625,7 @@ nav {
     position: relative;
     z-index: 0;
     display: none;
-    font-family: 'Megrim', cursive;
+    font-family: 'Gruppo', sans-serif;
 }
 
 .toggled {
@@ -646,7 +665,7 @@ nav {
 }
 .contactInfo {
     font-size: .8em;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Gruppo', sans-serif;
     width: 100%
 }
 .cright {
@@ -846,24 +865,24 @@ input[type="submit"]:hover {
     #darrow {
         width: 75px;
     }
-    .tools {
+    .skills {
         padding: 0 !important;
         margin: 0 !important;
     }
-    .tools .title {
+    .skills .title {
         height: 25vh !important;
         background: #171717;
     }
-    .tools .title-inner {
+    .skills .title-inner {
         height: 25vh !important;
         
     }
-    .tools .title-text {
+    .skills .title-text {
         font-size: 1em !important;
         margin-bottom: 0px !important;
         font-weight: bolder;
     }
-    .tools .title-text span {
+    .skills .title-text span {
     }
     #customsvg {
         width: 90%;
