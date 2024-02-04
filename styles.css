@@ -243,7 +243,7 @@ nav {
 /* SKILLS ################################################## */
 
 .skills {
-    padding: 0 10%;
+    padding: 150px 10% 150px 10%;
     text-align: center;
     font-family: 'Gruppo', sans-serif !important;
     background: #191919;
@@ -254,6 +254,7 @@ nav {
     text-align: left;
     padding: 25px;
     font-size: 1.5em;
+    margin-bottom: 150px;
 }
 .skills .title-inner {
 }
@@ -276,19 +277,127 @@ nav {
     display: flex;
 }
 .skill-box {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     margin-right: 25px;
     background: #222;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: .75em;
 }
 .skill-svg {
-    height: 25px;
-    width: 25px;
-    background: #EBFF00;
+    height: 60%;
+    width: 60%;
+}
+#html-svg {
+    background: url('./assets/skillsSVG/html.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#css-svg {
+    background: url('./assets/skillsSVG/css.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#javascript-svg {
+    background: url('./assets/skillsSVG/javascript.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#php-svg {
+    background: url('./assets/skillsSVG/php.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#python-svg {
+    background: url('./assets/skillsSVG/python.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#mysql-svg {
+    background: url('./assets/skillsSVG/mysql.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#react-svg {
+    background: url('./assets/skillsSVG/react.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#redux-svg {
+    background: url('./assets/skillsSVG/redux.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#jquery-svg {
+    background: url('./assets/skillsSVG/jquery.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#backbone-svg {
+    background: url('./assets/skillsSVG/backbone.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#sass-svg {
+    background: url('./assets/skillsSVG/sass.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#firebase-svg {
+    background: url('./assets/skillsSVG/firebase.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#aws-amplify-svg {
+    background: url('./assets/skillsSVG/aws-amplify.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#git-svg {
+    background: url('./assets/skillsSVG/git.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#figma-svg {
+    background: url('./assets/skillsSVG/figma.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#linux-svg {
+    background: url('./assets/skillsSVG/linux.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#wordpress-svg {
+    background: url('./assets/skillsSVG/wordpress.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#nextjs-svg {
+    background: url('./assets/skillsSVG/nextjs.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .skill-text {
     font-family: .5em;
@@ -323,7 +432,7 @@ nav {
 
 /* PROCESS ################################################## */
 .process {
-    padding: 250px 10% 0px 10%;
+    padding: 150px 10% 150px 10%;
 }
 .process .title {
     color: white;
@@ -342,7 +451,7 @@ nav {
 }
 /* DESIGN ######################### */
 .design {
-    margin-top: 100px;
+    margin-top: 150px;
     font-family: 'Gruppo', sans-serif;
     text-align: center;
     min-height: 300px;
@@ -396,7 +505,7 @@ nav {
 }
 /* DEVELOP ######################### */
 .develop {
-    margin-top: 100px;
+    margin-top: 150px;
     font-family: 'Gruppo', sans-serif;
     text-align: center;
     min-height: 300px;
@@ -441,7 +550,7 @@ nav {
 
 /* DEPLOY ######################### */
 .deploy {
-    margin-top: 100px;
+    margin-top: 150px;
     font-family: 'Gruppo', sans-serif;
     text-align: center;
     min-height: 300px;
