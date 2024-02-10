@@ -11,11 +11,16 @@ $(document).ready(() => {
     setTimeout(() => {
         $('.title').slideDown(1000);
     }, 1000);
+    setTimeout(() => {
+        $('#cv-cta').css('opacity', '1');
+    }, 2000);
     $('#aboutButton').click(() => {
         $('.homeContainer').slideUp(1000);
         $('.page-content').slideUp(1000);
         $('body').css('overflow-y','scroll');
         $('nav').css('opacity','1');
+        $('#cv-cta').css('transition', '.25s');
+        $('#cv-cta').css('opacity', '0');
 
         $('.aboutContainer').addClass('toggledContainer');
         $('.workContainer').removeClass('toggledContainer');
@@ -30,6 +35,8 @@ $(document).ready(() => {
         $('.page-content').slideUp(1000);
         $('body').css('overflow-y','scroll');
         $('nav').css('opacity','1');
+        $('#cv-cta').css('transition', '.25s');
+        $('#cv-cta').css('opacity', '0');
 
         $('.workContainer').addClass('toggledContainer');
         $('.aboutContainer').removeClass('toggledContainer');
@@ -44,6 +51,8 @@ $(document).ready(() => {
         $('.page-content').slideUp(1000);
         $('body').css('overflow-y','scroll');
         $('nav').css('opacity','1');
+        $('#cv-cta').css('transition', '.25s');
+        $('#cv-cta').css('opacity', '0');
 
         $('.contactContainer').addClass('toggledContainer');
         $('.aboutContainer').removeClass('toggledContainer');

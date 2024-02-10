@@ -46,13 +46,13 @@ $(document).ready(() => {
             border: '5px solid',
             borderColor: '#fff',
             easing: "easeInQuad",
-            duration: "250ms"
+            duration: "0"
         })
         anime({
             targets: '.close-menu svg path',
             stroke: '#EBFF00',
             easing: "easeInQuad",
-            duration: 250
+            duration: 0
         })
     })
     $('.close-menu').mouseleave(() => {
@@ -64,13 +64,13 @@ $(document).ready(() => {
             border: '0px solid',
             borderColor: '#fff',
             easing: "easeInQuad",
-            duration: "250ms"
+            duration: "0"
         })
         anime({
             targets: '.close-menu svg path',
             stroke: '#fff',
             easing: "easeInQuad",
-            duration: 250
+            duration: 0
         })
     })
 
@@ -79,7 +79,7 @@ $(document).ready(() => {
             targets: e.target,
             color: "#EBFF00",
             easing: "easeInQuad",
-            duration: "250ms"
+            duration: "0s"
         })
         anime({
             targets: ".cursor",
@@ -89,7 +89,7 @@ $(document).ready(() => {
             border: '5px solid',
             borderColor: '#fff',
             easing: "easeInQuad",
-            duration: "250ms"
+            duration: "0s"
         })
     })
     $('.menu-item').mouseleave((e) => {
@@ -97,7 +97,7 @@ $(document).ready(() => {
             targets: e.target,
             color: "#fff",
             easing: "easeInQuad",
-            duration: "250ms"
+            duration: "0s"
         })
         anime({
             targets: ".cursor",
@@ -107,7 +107,7 @@ $(document).ready(() => {
             border: '0px solid',
             borderColor: '#fff',
             easing: "easeInQuad",
-            duration: "250ms"
+            duration: "0s"
         })
     })
 
