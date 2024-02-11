@@ -131,6 +131,7 @@ $(document).ready(() => {
 
             closeMenu();
         }
+        
     })
 
     $('nav').mouseenter(() => {
