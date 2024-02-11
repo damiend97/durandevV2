@@ -339,7 +339,7 @@ nav:hover {
     color: #EBFF00;
 }
 .skill-section {
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 .skill-section:last-child {
     margin-bottom: 0px !important;
@@ -353,15 +353,16 @@ nav:hover {
     padding-bottom: 25px;
 }
 .skill-row {
-    display: flex;
+    text-align: left;
+    width: 100%;
 }
 .skill-box {
     height: 200px;
     width: 200px;
-    margin-right: 25px;
+    margin: 0px 10px 30px 10px;
     background: #222;
     position: relative;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     font-size: .75em;
@@ -1024,6 +1025,41 @@ input[type="submit"]:hover {
 
 
 /* ***************************************************** M-QUERIES ***************************************************** */
+/* Between tablet and large */
+@media only screen and (max-width: 1200px) {
+    .hello {
+        font-size: 2.5em;
+    }
+    .bio-inner {
+        width: 80%;
+    }
+    .bio-text {
+        font-size: .85em;
+    }
+    .scroll-text {
+        font-size: .85em;
+    }
+    #darrow {
+        width: 100px;
+    }
+    .skill-title {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center !important;
+    }
+    .skill-row {
+        margin-left: auto;
+        margin-right: auto;
+        /* text-align: center; */
+        border: 1px solid blue;
+        width: 713px;
+    }
+    .skill-box {
+        height: 150px;
+        width: 150px;
+    }
+}
 /* Close to tablet */
 @media only screen and (max-width: 900px) {
     .title {
@@ -1039,6 +1075,20 @@ input[type="submit"]:hover {
         background: none;
         border-left: 3px solid #EBFF00;
         background: #111;
+    }
+    .skill-title {
+        font-size: 1.25em !important;
+    }
+    .skill-row {
+        margin-left: auto;
+        margin-right: auto;
+        /* text-align: center; */
+        border: 1px solid red;
+        width: 532px;
+    }
+    .skill-box {
+        height: 150px;
+        width: 150px;
     }
     .workContainer {
         font-size: 1.5em !important;
@@ -1073,11 +1123,44 @@ input[type="submit"]:hover {
     .cright input, .cright textarea {
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    #cv-contact {
+        margin-bottom: 100px;
+    }
+    .cleftinner {
+        padding-top: 50px;
     }
 }
 
+/* Between mobile and tablet */
+@media only screen and (max-width: 750px) {
+    .skill-row {
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid green;
+        width: 457px;
+    }
+    .skill-box {
+        height: 125px;
+        width: 125px;
+    }
+}
 /* Mobile */
 @media only screen and (max-width: 600px) {
+    .hello {
+        font-size: 2em;
+    }
+    .bio-text {
+        font-size: .75em;
+    }
+    .scroll-text {
+        font-size: .75em;
+    }
+    #darrow {
+        width: 75px;
+    }
     .menu-link {
         display: none !important;
     }
@@ -1183,5 +1266,14 @@ input[type="submit"]:hover {
     }
     .home-socials {
         display: block;
+    }
+    .cright input, .cright textarea {
+        font-size: 15px;
+    }
+    .cright input {
+        height: 50px;
+    }
+    #cv-contact {
+        margin-bottom: 50px;
     }
 }
