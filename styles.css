@@ -19,6 +19,7 @@ body {
     background: linear-gradient(to right, rgb(28, 28, 28), rgb(44, 44, 44), rgb(28, 28, 28));
     overflow: hidden !important;
     font-family: 'Gruppo', sans-serif;
+    position: relative;
 }
 
 /* HOME PAGE #################################################################################################### */
@@ -123,8 +124,6 @@ body {
 .home-socials i {
     color: #888;
 }
-.cv-cta {
-}
 #cv-cta {
     color: #EBFF00;
     text-decoration: none;
@@ -186,9 +185,9 @@ nav:hover {
     width: 25vw;
     position: fixed;
     left: 100vw;
-    background: #111;
-    z-index: 1500;
-    border-left: 3px solid #EBFF00;
+    background: #151515;
+    z-index: 5000 !important;
+    /* border-left: 3px solid #EBFF00; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,6 +198,7 @@ nav:hover {
     top: 25px;
     right: 50px;
     padding: 15px;
+    z-index: 1500;
 }
 .close-menu:hover {
     cursor: pointer;
@@ -495,6 +495,7 @@ nav:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .skill-box:hover .skill-text {
     opacity: 1;
@@ -740,7 +741,8 @@ nav:hover {
     width: 80%;
     margin-left: 50px;
     margin-top: 50px;
-    height: 75%;    
+    height: 75%;
+    margin-bottom: 100px
 }
 .work-links {
     font-size: .75em;
@@ -751,8 +753,10 @@ nav:hover {
 }
 .work-icons {
     position: absolute;
-    bottom: 110px;
-    left: 25px;
+    /* bottom: 110px; */
+    /* left: 25px; */
+    bottom: 100px;
+    left:05px;
     color: gray;
     display: flex;
 }
@@ -765,7 +769,7 @@ nav:hover {
     margin-right: 15px;
 }
 .nested-links {
-    margin: 25px;
+    /* margin: 25px; */
 }
 .nested-links a {
     color: #fff;
@@ -793,12 +797,14 @@ nav:hover {
     width: 100%;
 }
 .view-link a {
+
 }
 .code-link a {
     color: #EBFF00;
     text-decoration: none;
     margin-right: 25px;
     cursor: pointer;
+
 }
 /* .fa-solid {
     background: red;
@@ -823,7 +829,7 @@ nav:hover {
     /* border: 1px solid red; */
 }
 #jsonsvg {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 /* ********************************************************************************************************** */
 .contactContainer {
@@ -979,6 +985,9 @@ input[type="submit"]:hover {
     border-bottom: 2px solid #EBFF00;
     cursor: pointer;
 }
+.contact-text {
+    display: none;
+}
 /* ***************************************************** KEYFRAMES ***************************************************** */
 @keyframes spin {
     to {
@@ -1026,7 +1035,10 @@ input[type="submit"]:hover {
 
 /* ***************************************************** M-QUERIES ***************************************************** */
 /* Between tablet and large */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1600px) {
+    .menu {
+        width: 100vw;
+    }
     .hello {
         font-size: 2.5em;
     }
@@ -1052,12 +1064,18 @@ input[type="submit"]:hover {
         margin-left: auto;
         margin-right: auto;
         /* text-align: center; */
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         width: 713px;
     }
     .skill-box {
         height: 150px;
         width: 150px;
+    }
+    .skill-text {
+        font-size: .75em;
+    }
+    .workContainer {
+        font-size: 2.5em;
     }
 }
 /* Close to tablet */
@@ -1076,6 +1094,9 @@ input[type="submit"]:hover {
         border-left: 3px solid #EBFF00;
         background: #111;
     }
+    .menu-link {
+        display: none !important;
+    }
     .skill-title {
         font-size: 1.25em !important;
     }
@@ -1083,31 +1104,18 @@ input[type="submit"]:hover {
         margin-left: auto;
         margin-right: auto;
         /* text-align: center; */
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 532px;
     }
     .skill-box {
         height: 150px;
         width: 150px;
     }
-    .workContainer {
-        font-size: 1.5em !important;
+    .skill-text {
+        font-size: .7em;
     }
-    .rect svg {
-        height: 15px;
-    }
-    .rect {
-        height: 50vh !important;
-        margin-top: 20vh;
-    }
-    .work-title {
-        font-size: 1.5em;
 
-    }
-    .work-links {
-        overflow-y: hidden;
-        padding-bottom: 15px;
-    }
+
     .cleft {
         width: 100%;
         height: auto;
@@ -1132,14 +1140,28 @@ input[type="submit"]:hover {
     .cleftinner {
         padding-top: 50px;
     }
+    .work-number {
+        display: none;
+    }
+    .contact-text {
+        display: block;
+        font-size: 1.5em;
+        margin-bottom: 75px;
+    }
 }
 
 /* Between mobile and tablet */
 @media only screen and (max-width: 750px) {
+    .skills {
+        padding: 100px 5% 100px 5%;
+    }
+    .process {
+        padding: 100px 5% 100px 5%;
+    }
     .skill-row {
         margin-left: auto;
         margin-right: auto;
-        border: 1px solid green;
+        /* border: 1px solid green; */
         width: 457px;
     }
     .skill-box {
@@ -1149,20 +1171,23 @@ input[type="submit"]:hover {
 }
 /* Mobile */
 @media only screen and (max-width: 600px) {
+    #cv-cta {
+        bottom: 25px;
+    }
+    .menu-socials {
+        bottom: 50px;
+    }
     .hello {
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .bio-text {
-        font-size: .75em;
+        font-size: .65em;
     }
     .scroll-text {
-        font-size: .75em;
+        font-size: .7em;
     }
     #darrow {
         width: 75px;
-    }
-    .menu-link {
-        display: none !important;
     }
     #logo2 {
         height: 75px
@@ -1170,65 +1195,22 @@ input[type="submit"]:hover {
     .menu {
         width: 100vw !important;
     }
-    #s1 {
-        align-items: flex-end;
-    }
-    #s1, #s2, #s3 {
-        font-size: .5em;
-        height: 50vh;
-    }
-    #s2 {
-        align-items: flex-end;
-
-    }
-    #s3 {
-        align-items: center;
-        height: 100vh;
-    }
     #darrow {
         width: 75px;
     }
-    .skills {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-    .skills .title {
-        height: 25vh !important;
-        background: #171717;
-    }
-    .skills .title-inner {
-        height: 25vh !important;
-        
-    }
-    .skills .title-text {
+    .skill-title {
+        width: 90% !important;
         font-size: 1em !important;
-        margin-bottom: 0px !important;
-        font-weight: bolder;
     }
-    .skills .title-text span {
+    .skill-row {
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 1px solid green; */
+        width: 301px;
     }
-    #customsvg {
-        width: 90%;
-        margin: 50px 0px !important;
-    }
-    .process {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-    .process .title {
-        height: 25vh !important;
-        background: #171717;
-    }
-    .process .title-inner {
-        height: 25vh !important;
-    }
-    .process .title-text {
-        font-size: 1em !important;
-        margin-bottom: 0px !important;
-        font-weight: bolder;
-    }
-    .cursor {
-        display: none !important;
+    .skill-box {
+        height: 125px;
+        width: 125px;
     }
     .boxes {
         flex-direction: column;
@@ -1241,7 +1223,7 @@ input[type="submit"]:hover {
         margin-top: 50px;
     }
     .design, .develop, .deploy {
-        font-size: .5em;
+        font-size: 1em;
     }
     .design svg, .develop svg, .deploy svg {
         width: 75%;
@@ -1252,14 +1234,27 @@ input[type="submit"]:hover {
         margin-right: auto;
     }
     .info {
-        font-size: .75em !important;
+        font-size: .5em !important;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-        line-height: 25px !important;
+        /* line-height: 25px !important; */
     }
-    .workContainer {
-        font-size: 1.25em !important;
+    .work-description {
+        font-size: .75em;
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+    .work-links {
+        font-size: .75em;
+        justify-content: flex-start;
+    }
+    .view-link,
+    .code-link {
+        justify-content: flex-start;
+    }
+    .work-icons {
+        top: 25px;
     }
     .cleft, .cright {
         font-size: .75em;
@@ -1275,5 +1270,18 @@ input[type="submit"]:hover {
     }
     #cv-contact {
         margin-bottom: 50px;
+    }
+    .contact-text {
+        font-size: 1.5em;
+        margin-bottom: 25px;
+    }
+    .contactContainer .socials {
+        margin-top: 25px;
+        margin-bottom: 0px;
+        padding: 0 !important;
+    }
+    .contactContainer .socials .social {
+        height: 50px;
+        width: 50px;
     }
 }

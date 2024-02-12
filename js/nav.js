@@ -1,8 +1,46 @@
 // nav.js
+function toggleFullScreen() {
+    if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+    } else if (document.exitFullscreen) {
+        document.exitFullscreen();
+    }
+}
 
-var mobile = window.matchMedia("(max-width: 600px)")
+function detectMob() {
+    const toMatch = [
+        /Android/i,
+        /webOS/i,
+        /iPhone/i,
+        /iPad/i,
+        /iPod/i,
+        /BlackBerry/i,
+        /Windows Phone/i
+    ];
+    
+    return toMatch.some((toMatchItem) => {
+        return navigator.userAgent.match(toMatchItem);
+    });
+}
+
+var fullMenu = window.matchMedia("(max-width: 1600px)");
 
 $(document).ready(() => {
+    $(window).resize(() => {
+        if($('.menu').hasClass('open')) {
+            anime({
+                targets: '.menu',
+                left: '100vw',
+                easing: 'easeInQuad',
+                duration: 0
+            })
+            $('nav').css('opacity','1');
+            $('.menu').removeClass('open');
+            // if(detectMob() === true) {
+            //     document.exitFullscreen();
+            // }
+        }
+    });
     const closeMenu = () => {
         anime({
             targets: '.menu',
@@ -14,7 +52,12 @@ $(document).ready(() => {
     }
 
     $('nav').click(() => {
-        if(mobile.matches) {
+        $('.menu').addClass('open');
+        if(fullMenu.matches) {
+            if(detectMob() === true) {
+                document.documentElement.requestFullscreen()
+            }
+
             anime({
                 targets: '.menu',
                 left: '0vw',
@@ -34,7 +77,12 @@ $(document).ready(() => {
     })
 
     $('.close-menu').click(() => {
+        $('.menu').removeClass('open');
         closeMenu();
+
+        if(detectMob() === true) {
+            document.exitFullscreen();
+        }
     })
 
     $('.close-menu').mouseenter(() => {
@@ -112,6 +160,9 @@ $(document).ready(() => {
     })
 
     $('.menu-item').click((e) => {
+        if(detectMob() === true) {
+            document.exitFullscreen();
+        }
         document.body.scrollTop = document.documentElement.scrollTop = 0;
         skillTitleSize = 0;
         processTitleSize = 0;
