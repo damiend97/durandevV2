@@ -279,7 +279,7 @@
                 </div>
                 <br><hr><br>
                 <h2 class="info" style="font-size: 20px; line-height: 50px;">
-                    The design phase of my web development process begins with sketching a layout that delivers the content in an easily digestible format. After adding some custom graphics and other assets such as high quality images, the web experience really begins to show its form. Typography is then used to accentuate specific areas of the experience and construct a visually appealing theme.
+                    The design phase of my web development process begins with creating a layout that delivers the content in an easily digestible format. My end goal is to ensure that the user has a pleasant experience. Using graphics, images, and meaningful typography helps me accentuate important content while creating a visually appealing experience.
                 </h2>
             </div>
     
@@ -422,7 +422,7 @@
                 </div>
                 <br><hr><br>
                 <h2 class="info" style="font-size: 20px; line-height: 50px;">
-                    The development cycle is all about choosing the right tools for the job. Oftentimes this means writing custom code but that doesn't mean to reinvent the wheel. The most important thing is to turn the design into a reality in the most efficient way possible. With the website nearing completion, I ensure that the device responsiveness is functional and the SEO of the site is optimized.
+                    The development cycle is all about choosing the right tools for the job. Oftentimes I write custom code but I try to avoid reinventing the wheel. The most important thing for me is to turn the design into a reality in the most efficient way possible. I always develop with a mobile first mentality and follow industry standards to enhance SEO.
                 </h2>
                 
             </div>
@@ -501,7 +501,7 @@
                 </div>
                 <br><hr><br>
                 <h2 class="info" style="font-size: 20px; line-height: 50px;">
-                    The last step of the process is deployment. Now that the website is built, it needs to be connected to the internet so everyone can make use of it. This includes setting up a domain (the web address for your site), integrating hosting (where your domain and website live), and generating SSL (the security measures for the site).
+                    Finally, the product is ready to go live. I value the importance of choosing the right services to properly deploy a web application. After setting up a domain name and hosting services, I make sure the website is secured with an SSL certificate.
                 </h2>
             </div>
         </div>

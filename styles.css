@@ -1077,6 +1077,38 @@ input[type="submit"]:hover {
     .workContainer {
         font-size: 2.5em;
     }
+    .cleft {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .cright {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        height: auto;
+        margin-top: 25px;
+    }
+    .cright input, .cright textarea {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    #cv-contact {
+        margin-bottom: 100px;
+    }
+    .cleftinner {
+        padding-top: 50px;
+    }
+    .work-number {
+        display: none;
+    }
+    .contact-text {
+        display: block;
+        font-size: 1.5em;
+        margin-bottom: 75px;
+    }
 }
 /* Close to tablet */
 @media only screen and (max-width: 900px) {
@@ -1114,40 +1146,6 @@ input[type="submit"]:hover {
     .skill-text {
         font-size: .7em;
     }
-
-
-    .cleft {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    .cright {
-        width: 100%;
-        position: relative;
-        text-align: center;
-        height: auto;
-        margin-top: 25px;
-    }
-    .cright input, .cright textarea {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 50px;
-        font-size: 20px;
-    }
-    #cv-contact {
-        margin-bottom: 100px;
-    }
-    .cleftinner {
-        padding-top: 50px;
-    }
-    .work-number {
-        display: none;
-    }
-    .contact-text {
-        display: block;
-        font-size: 1.5em;
-        margin-bottom: 75px;
-    }
 }
 
 /* Between mobile and tablet */
@@ -1171,11 +1169,13 @@ input[type="submit"]:hover {
 }
 /* Mobile */
 @media only screen and (max-width: 600px) {
-    #cv-cta {
-        bottom: 25px;
+    #cv-nav {
+        font-size: 25px !important;
+        color: #EBFF00;
     }
     .menu-socials {
         bottom: 50px;
+        right: 50px;
     }
     .hello {
         font-size: 1.5em;
