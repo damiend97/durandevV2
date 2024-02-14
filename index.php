@@ -513,7 +513,7 @@
             <div class="rect" id="r1">
                 <div class="rect-inner">
                     <div class="work-number">0</div>
-                    <div class="work-title">DuranDev - Portfolio Site</div>
+                    <div class="work-title">DuranDev - Portfolio</div>
                     <div class="work-description">
                         This project is, well...you've made it this far. This site uses HTML, CSS, JavaScript, and Anime.js to visualize who I am as a developer, showcase my work, and provide a way to contact me.
                     </div>
