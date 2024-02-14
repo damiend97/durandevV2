@@ -534,9 +534,6 @@
                                     <i class="fas fa-code"></i>
                                 </div>
                                </a>
-
-
-                            
                         </div>
                     </div>
                     <div class="work-icons">
@@ -549,45 +546,29 @@
             <div class="rect" id="r2">
                 <div class="rect-inner">
                     <div class="work-number">1</div>
-                    <div class="work-title">D-Studios</div>
-                    <div class="work-description">
-                        This is a company site template I made that is filled with immersive animations managed via Anime.js.
-                        This website challenges traditional web design practices by featuring horizontal scrolling.
-                    </div>
+                    <div class="work-title">Spring Creek HVAC</div>
+                    <div class="work-description">Spring Creek HVAC is a local company that I built a website for. The website is fully responsive and even uses a bit of PHP but I primarily relied on HTML and CSS.</div>
                     <div class="work-links">
                         <div class="nested-links">
-                            <a target="_blank" href="https://durandev.net/DStudios/">
+                            <a target="_blank" href="https://durandev.net/springcreek/">
                                 <div class="view-link">
                                     View Project
                                     <i class="fas fa-eye"></i>
                                 </div>
                             </a>
-                            <a target="_blank" href="https://github.com/damiend97/DStudios">
+                            <a target="_blank" href="https://github.com/damiend97/springcreek">
                                 <div class="code-link">
+                                
                                     View Code
                                     <i class="fas fa-code"></i>
                                 </div>
                             </a>
-                            
                         </div>
                     </div>
                     <div class="work-icons">
-                        <svg width="37" height="37" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g id="animelogo" clip-path="url(#clip0_3_2)">
-                            <circle id="Ellipse 1" cx="10" cy="10" r="5.5" stroke="gray" stroke-width="2px" />
-                            <rect id="Rectangle 1" x="0.5" y="0.5" width="19" height="19" stroke="gray" stroke-width="2px"/>
-                            <path id="Ellipse 2" d="M13.5 19.5C13.5 27.2487 7.43945 33.5 0 33.5C-7.43945 33.5 -13.5 27.2487 -13.5 19.5C-13.5 11.7513 -7.43945 5.5 0 5.5C7.43945 5.5 13.5 11.7513 13.5 19.5Z" stroke="gray" stroke-width="2px"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_3_2">
-                            <rect width="20" height="20" fill="gray"/>
-                            </clipPath>
-                            </defs>
-                        </svg>
-                        <svg width="47" height="25" viewBox="0 0 47 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M46.0607 13.0607C46.6464 12.4749 46.6464 11.5251 46.0607 10.9393L36.5147 1.3934C35.9289 0.807612 34.9792 0.807612 34.3934 1.3934C33.8076 1.97918 33.8076 2.92893 34.3934 3.51472L42.8787 12L34.3934 20.4853C33.8076 21.0711 33.8076 22.0208 34.3934 22.6066C34.9792 23.1924 35.9289 23.1924 36.5147 22.6066L46.0607 13.0607ZM2 13.5H45V10.5H2V13.5Z" fill="gray"/>
-                            <path d="M0.93934 10.9393C0.353553 11.5251 0.353553 12.4749 0.93934 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97918 12.6066 1.3934C12.0208 0.807612 11.0711 0.807612 10.4853 1.3934L0.93934 10.9393ZM45 10.5H2V13.5H45V10.5Z" fill="gray"/>
-                        </svg>
+                        <i class="fab fa-php"></i>
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
                     </div>
                 </div>
             </div>
@@ -663,6 +644,51 @@
             <div class="rect" id="r5">
                 <div class="rect-inner">
                     <div class="work-number">4</div>
+                    <div class="work-title">D-Studios</div>
+                    <div class="work-description">
+                        This is a company site template I made that is filled with immersive animations managed via Anime.js.
+                        This website challenges traditional web design practices by featuring horizontal scrolling.
+                    </div>
+                    <div class="work-links">
+                        <div class="nested-links">
+                            <a target="_blank" href="https://durandev.net/DStudios/">
+                                <div class="view-link">
+                                    View Project
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </a>
+                            <a target="_blank" href="https://github.com/damiend97/DStudios">
+                                <div class="code-link">
+                                    View Code
+                                    <i class="fas fa-code"></i>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="work-icons">
+                        <svg width="37" height="37" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="animelogo" clip-path="url(#clip0_3_2)">
+                            <circle id="Ellipse 1" cx="10" cy="10" r="5.5" stroke="gray" stroke-width="2px" />
+                            <rect id="Rectangle 1" x="0.5" y="0.5" width="19" height="19" stroke="gray" stroke-width="2px"/>
+                            <path id="Ellipse 2" d="M13.5 19.5C13.5 27.2487 7.43945 33.5 0 33.5C-7.43945 33.5 -13.5 27.2487 -13.5 19.5C-13.5 11.7513 -7.43945 5.5 0 5.5C7.43945 5.5 13.5 11.7513 13.5 19.5Z" stroke="gray" stroke-width="2px"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_3_2">
+                            <rect width="20" height="20" fill="gray"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                        <svg width="47" height="25" viewBox="0 0 47 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M46.0607 13.0607C46.6464 12.4749 46.6464 11.5251 46.0607 10.9393L36.5147 1.3934C35.9289 0.807612 34.9792 0.807612 34.3934 1.3934C33.8076 1.97918 33.8076 2.92893 34.3934 3.51472L42.8787 12L34.3934 20.4853C33.8076 21.0711 33.8076 22.0208 34.3934 22.6066C34.9792 23.1924 35.9289 23.1924 36.5147 22.6066L46.0607 13.0607ZM2 13.5H45V10.5H2V13.5Z" fill="gray"/>
+                            <path d="M0.93934 10.9393C0.353553 11.5251 0.353553 12.4749 0.93934 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97918 12.6066 1.3934C12.0208 0.807612 11.0711 0.807612 10.4853 1.3934L0.93934 10.9393ZM45 10.5H2V13.5H45V10.5Z" fill="gray"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="rect" id="r6">
+                <div class="rect-inner">
+                    <div class="work-number">5</div>
                     <div class="work-title">Quizzie</div>
                     <div class="work-description">Quizzie is a React app that generates a quiz with Open Trivia Database. This app pulls JSON                                                    
                         data from said database and renders it into a quiz for the user.</div>
@@ -688,35 +714,6 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 32 32">
                             <path d="M16.057 31.958c0.641-0.005 1.271-0.042 1.901-0.125 1.443-0.188 2.859-0.578 4.193-1.151 1.88-0.802 3.599-1.964 5.057-3.391 1.339-1.318 2.458-2.87 3.255-4.573 0.677-1.458 1.161-3.031 1.359-4.63 0.198-1.547 0.182-3.13-0.057-4.667-0.198-1.281-0.563-2.526-1.057-3.719-0.323-0.745-0.703-1.469-1.141-2.156-1.557-2.448-3.813-4.417-6.411-5.734-0.927-0.474-1.901-0.859-2.896-1.156h-0.010c0.161 0.083 0.323 0.172 0.464 0.266 0.156 0.099 0.318 0.198 0.469 0.302 0.755 0.51 1.458 1.099 2.078 1.771 1.417 1.526 2.396 3.401 2.953 5.391 0.38 1.307 0.583 2.661 0.661 4.021 0.057 0.99 0.057 1.99-0.063 2.974-0.198 1.693-0.74 3.344-1.635 4.792-0.661 1.073-1.521 2.026-2.536 2.781-1.661 1.234-3.839 1.974-5.917 1.484-0.339-0.083-0.682-0.193-0.995-0.344-0.365-0.167-0.724-0.37-1.042-0.599-0.62-0.417-1.177-0.911-1.656-1.474-0.583-0.693-1.063-1.484-1.401-2.328-0.417-1.078-0.641-2.229-0.656-3.391-0.042-1.698 0.297-3.401 1.135-4.891 0.563-0.995 1.318-1.865 2.219-2.557 0.302-0.24 0.62-0.443 0.938-0.641l0.021-0.010c-0.62-0.135-1.276-0.198-1.922-0.156-0.557 0.036-1.094 0.141-1.635 0.318-0.479 0.161-0.938 0.359-1.359 0.599-0.339 0.198-0.677 0.422-0.974 0.661-0.281 0.24-0.563 0.479-0.823 0.74-1.495 1.536-2.359 3.573-2.698 5.672-0.198 1.302-0.198 2.615-0.12 3.938 0.141 1.859 0.521 3.714 1.26 5.411 0.458 1.063 1.057 2.036 1.797 2.901 1.141 1.313 2.578 2.339 4.177 2.974 0.901 0.359 1.859 0.62 2.818 0.719 0.099 0.021 0.198 0.021 0.276 0.021zM12.146 31.427c-0.219-0.094-0.417-0.198-0.599-0.302-0.198-0.115-0.401-0.224-0.599-0.349-0.781-0.479-1.479-1.047-2.12-1.698-1.458-1.516-2.438-3.422-2.995-5.443-0.38-1.38-0.583-2.802-0.661-4.229-0.057-0.938-0.036-1.859 0.063-2.776 0.177-1.677 0.661-3.333 1.5-4.771 0.594-1.063 1.417-2 2.375-2.74 0.656-0.5 1.401-0.922 2.177-1.198 1.099-0.401 2.276-0.521 3.417-0.359 0.443 0.057 0.88 0.156 1.281 0.297 0.036 0 0.036 0 0.057 0.042 0.021 0.021 0.063 0.021 0.083 0.036 0.057 0.026 0.135 0.063 0.219 0.099 0.318 0.161 0.635 0.365 0.938 0.563 1.198 0.839 2.177 1.995 2.797 3.333 0.557 1.219 0.818 2.583 0.839 3.922 0.021 1.438-0.24 2.875-0.859 4.193-0.74 1.578-1.995 2.917-3.516 3.776 0.12 0.042 0.24 0.057 0.359 0.099 0.302 0.057 0.599 0.099 0.917 0.099 1.958 0.063 3.859-0.88 5.255-2.198 0.26-0.24 0.5-0.5 0.719-0.776 0.302-0.359 0.583-0.719 0.823-1.099 0.318-0.5 0.578-1 0.818-1.536 0.302-0.719 0.536-1.458 0.677-2.219 0.26-1.339 0.281-2.698 0.198-4.036-0.177-2.698-0.896-5.396-2.453-7.63-0.24-0.339-0.479-0.661-0.74-0.958-0.443-0.5-0.922-0.964-1.422-1.38-0.557-0.458-1.177-0.88-1.818-1.219-0.656-0.297-1.438-0.599-2.255-0.797l-0.401-0.083c-0.276-0.042-0.557-0.057-0.844-0.078-0.432-0.021-0.891-0.016-1.354 0.021-0.938 0.057-1.88 0.214-2.813 0.448-4.474 1.156-8.391 4.276-10.474 8.411-0.667 1.318-1.141 2.729-1.417 4.177-0.318 1.656-0.359 3.365-0.141 5.031 0.161 1.359 0.5 2.698 1.036 3.969 0.307 0.76 0.682 1.5 1.104 2.198 1.458 2.38 3.578 4.318 6.010 5.656 0.917 0.521 1.88 0.917 2.875 1.26 0.302 0.099 0.604 0.198 0.922 0.276z" fill="gray"/>
                         </svg>
-                    </div>
-                </div>
-            </div>
-            <div class="rect" id="r6">
-                <div class="rect-inner">
-                    <div class="work-number">5</div>
-                    <div class="work-title">Housewife Helper</div>
-                    <div class="work-description">Housewife Helper is a housesitting company that I worked for to design a company page. The website is fully responsive and even uses a bit of PHP but I primarily relied on HTML and CSS.</div>
-                    <div class="work-links">
-                        <div class="nested-links">
-                            <a target="_blank" href="https://durandev.net/heide/">
-                                <div class="view-link">
-                                    View Project
-                                    <i class="fas fa-eye"></i>
-                                </div>
-                            </a>
-                            <a target="_blank" href="https://github.com/damiend97/housewifehelper">
-                                <div class="code-link">
-                                
-                                    View Code
-                                    <i class="fas fa-code"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="work-icons">
-                        <i class="fab fa-php"></i>
-                        <i class="fab fa-html5"></i>
-                        <i class="fab fa-css3-alt"></i>
                     </div>
                 </div>
             </div>
