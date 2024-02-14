@@ -513,6 +513,49 @@
             <div class="rect" id="r1">
                 <div class="rect-inner">
                     <div class="work-number">0</div>
+                    <div class="work-title">DuranDev - Portfolio Site</div>
+                    <div class="work-description">
+                        This project is, well...you've made it this far. This site uses HTML, CSS, JavaScript, and Anime.js to visualize who I am as a developer, showcase my work, and provide a way to contact me.
+                    </div>
+                    <div class="work-links">
+                        <div class="nested-links">
+                            <a target="_blank" href="https://durandev.net/">
+                                <div class="view-link">
+                                    View Project
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </a>
+                            <a target="_blank" href="https://github.com/damiend97/durandevV2">
+                                <div class="code-link">
+                                    View Code
+                                    <i class="fas fa-code"></i>
+                                </div>
+                               </a>
+                        </div>
+                    </div>
+                    <div class="work-icons">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="gray" d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/></svg>
+                
+                        <svg width="37" height="37" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="animelogo" clip-path="url(#clip0_3_2)">
+                            <circle id="Ellipse 1" cx="10" cy="10" r="5.5" stroke="gray" stroke-width="2px" />
+                            <rect id="Rectangle 1" x="0.5" y="0.5" width="19" height="19" stroke="gray" stroke-width="2px"/>
+                            <path id="Ellipse 2" d="M13.5 19.5C13.5 27.2487 7.43945 33.5 0 33.5C-7.43945 33.5 -13.5 27.2487 -13.5 19.5C-13.5 11.7513 -7.43945 5.5 0 5.5C7.43945 5.5 13.5 11.7513 13.5 19.5Z" stroke="gray" stroke-width="2px"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_3_2">
+                            <rect width="20" height="20" fill="gray"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="rect" id="r2">
+                <div class="rect-inner">
+                    <div class="work-number">1</div>
                     <div class="work-title">Elite Clothing</div>
                     <div class="work-description">
                         Elite Clothing is a React
@@ -543,9 +586,9 @@
                     </div>
                 </div>
             </div>
-            <div class="rect" id="r2">
+            <div class="rect" id="r3">
                 <div class="rect-inner">
-                    <div class="work-number">1</div>
+                    <div class="work-number">2</div>
                     <div class="work-title">Spring Creek HVAC</div>
                     <div class="work-description">Spring Creek HVAC is a local company that I built a website for. The website is fully responsive and even uses a bit of PHP but I primarily relied on HTML and CSS.</div>
                     <div class="work-links">
@@ -572,9 +615,9 @@
                     </div>
                 </div>
             </div>
-            <div class="rect" id="r3">
+            <div class="rect" id="r4">
                 <div class="rect-inner">
-                    <div class="work-number">2</div>
+                    <div class="work-number">3</div>
                     <div class="work-title">EZ-Budget</div>
                     <div class="work-description">
                         This is a web app developed to keep track of your income and expenses. It utilizes MySQL and PHP to store user data. This app also features user authentication.
@@ -601,9 +644,9 @@
                     </div>
                 </div>
             </div>
-            <div class="rect" id="r4">
+            <div class="rect" id="r5">
                 <div class="rect-inner">
-                    <div class="work-number">3</div>
+                    <div class="work-number">4</div>
                     <div class="work-title">BattleStars</div>
                     <div class="work-description">BattleStars is a simple game I developed for the web. It uses HTML and CSS to structure the website, and the Phaser.js                   
                         library to tranform DOM elements into an engaging experience.</div>
@@ -641,9 +684,9 @@
                     </div>
                 </div>
             </div>
-            <div class="rect" id="r5">
+            <div class="rect" id="r6">
                 <div class="rect-inner">
-                    <div class="work-number">4</div>
+                    <div class="work-number">5</div>
                     <div class="work-title">D-Studios</div>
                     <div class="work-description">
                         This is a company site template I made that is filled with immersive animations managed via Anime.js.
@@ -663,7 +706,6 @@
                                     <i class="fas fa-code"></i>
                                 </div>
                             </a>
-                            
                         </div>
                     </div>
                     <div class="work-icons">
@@ -686,9 +728,9 @@
                     </div>
                 </div>
             </div>
-            <div class="rect" id="r6">
+            <div class="rect" id="r7">
                 <div class="rect-inner">
-                    <div class="work-number">5</div>
+                    <div class="work-number">6</div>
                     <div class="work-title">Quizzie</div>
                     <div class="work-description">Quizzie is a React app that generates a quiz with Open Trivia Database. This app pulls JSON                                                    
                         data from said database and renders it into a quiz for the user.</div>
